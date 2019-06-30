@@ -1,0 +1,311 @@
+header, li, h3, h4, p.copyright, .bottom p, p.textbox-p2, .dropdown-content a {
+  font-family: 'Overpass', serif; }
+
+nav.footer-nav li, p, .circle {
+  font-family: 'Amiri', serif; }
+
+h3, h4 {
+  font-weight: 500; }
+
+h3.fav-title {
+  margin-top: 83px;
+  margin-bottom: -10px; }
+
+p.fav-description {
+  margin-bottom: 58px; }
+
+.title {
+  font-family: 'Overpass', serif;
+  font-weight: 500;
+  color: #3A9393; }
+
+header {
+  text-align: center;
+  margin-bottom: 10px; }
+
+nav {
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 900px; }
+
+nav.top-nav li {
+  flex: 1; }
+nav.top-nav ul {
+  flex: 2; }
+
+nav.footer-nav {
+  display: block;
+  font-size: 12px; }
+  nav.footer-nav li a {
+    color: #B3B3B3; }
+
+#logo {
+  padding: 3%; }
+
+main {
+  margin: auto;
+  max-width: 900px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: inline;
+  padding: 0px 1%; }
+
+li a {
+  color: black;
+  text-decoration: none; }
+
+li a:hover {
+  color: #e6e6e6; }
+
+footer li a:hover {
+  color: #404040; }
+
+h3 {
+  text-align: center; }
+
+h4.favourite-h {
+  text-align: center;
+  margin-bottom: -11px; }
+
+p {
+  text-align: center;
+  color: #B3B3B3; }
+
+p.textbox-p1 {
+  font-style: italic; }
+
+p.textbox-p2 {
+  font-size: 61px;
+  margin: -16px; }
+
+hr.pen-hr {
+  margin-top: 18px; }
+
+.copyright {
+  color: #B3B3B3; }
+
+.bold-italic-black {
+  font-weight: bold;
+  font-style: italic;
+  color: #1A1B1B; }
+
+img {
+  width: 100%;
+  margin: 1%; }
+
+.top {
+  height: 450px; }
+  .top img {
+    width: 48%;
+    height: 98%;
+    float: left; }
+  .top .text-box {
+    height: 98%; }
+
+.text-box {
+  background-color: #b0c6c1;
+  width: 48%;
+  min-width: 300px;
+  position: relative;
+  float: right;
+  margin: 1%;
+  text-align: center; }
+  .text-box .overlay-text {
+    left: 50%;
+    transform: translate(-50%, 24%); }
+    .text-box .overlay-text hr {
+      border: 0.5px solid white;
+      width: 19%; }
+  .text-box p {
+    color: white; }
+
+.middle {
+  height: 300px; }
+  .middle .middle-images {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    height: 100%; }
+    .middle .middle-images .middle-img {
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: 100%, auto; }
+
+#image1 {
+  background-image: url("../images/thomas-ae-602202-unsplash.jpg"); }
+
+#image2 {
+  background-image: url("../images/beatriz-perez-moya-191993-unsplash.jpg"); }
+
+#image3 {
+  background-image: url("../images/tom-the-photographer-651516-unsplash.jpg");
+  background-position: 0px -70px; }
+
+.bottom {
+  height: 400px; }
+  .bottom .favourites {
+    float: left;
+    width: 23%;
+    margin: 1%;
+    height: 100%; }
+    .bottom .favourites img {
+      height: 60%; }
+    .bottom .favourites h4 {
+      font-size: 15px; }
+    .bottom .favourites p {
+      font-size: 12px; }
+
+.old-price {
+  text-decoration: line-through; }
+
+.new-price {
+  color: #88D4F3; }
+
+@media screen and (max-width: 900px) {
+  .text-box {
+    float: none;
+    width: 100%; }
+
+  .top {
+    height: auto; }
+    .top img {
+      float: none;
+      width: 100%;
+      height: auto; }
+    .top .text-box {
+      height: 400px; }
+
+  .middle {
+    height: auto; }
+    .middle .middle-images {
+      width: 100%;
+      float: none; }
+      .middle .middle-images .middle-img {
+        height: 500px; }
+      .middle .middle-images .label {
+        width: 80%;
+        height: 100px;
+        font-size: 50px;
+        line-height: 80px;
+        font-size: 20px;
+        left: 0%;
+        right: 0%;
+        transform: translateY(286%);
+        margin: auto; }
+        .middle .middle-images .label .overlay-text {
+          bottom: 35%; }
+          .middle .middle-images .label .overlay-text p {
+            margin: -43px; }
+
+  .bottom {
+    height: 600px; }
+    .bottom .favourites {
+      width: 48%; }
+    .bottom img {
+      height: 60%; }
+    .bottom .circle {
+      left: 22%;
+      transform: translateY(-23px);
+      width: 55px;
+      height: 55px;
+      font-size: 50px;
+      line-height: 55px;
+      font-size: 20px; }
+    .bottom h4 {
+      font-size: 12px; }
+    .bottom p {
+      font-size: 11px; } }
+@media screen and (max-width: 810px) {
+  .dropdown {
+    display: inline-block !important; }
+
+  nav.top-nav {
+    display: none; } }
+.circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 51px;
+  font-size: 20px;
+  background: #000;
+  font-style: italic;
+  transform: translate(78px, -25px); }
+
+.label {
+  position: absolute;
+  transform: translate(5%, 207%);
+  margin: 0 auto;
+  width: 250px;
+  height: 90px;
+  font-size: 20px;
+  color: #B3B3B3;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  font-size: 20px;
+  background: #F6F6F6;
+  outline: 1px solid #E7E7E7;
+  outline-offset: -10px; }
+  .label .overlay-text {
+    bottom: 40%;
+    left: 0;
+    right: 0; }
+    .label .overlay-text p {
+      margin: -68px; }
+
+.overlay-text {
+  position: absolute; }
+
+.dropbtn {
+  background-color: white;
+  color: #DADADA;
+  padding: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10%; }
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #F8F8F8; }
+
+.dropdown {
+  position: relative;
+  display: none; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown-content a:hover {
+  background-color: #ddd; }
+
+.show {
+  display: block; }
+
+/*# sourceMappingURL=styles.css.map */
